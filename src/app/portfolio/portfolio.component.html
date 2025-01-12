@@ -1,4 +1,4 @@
-<div class="container text-center pt-4">
+<div class="container text-center py-4">
     <h1 class=" fw-bold text-uppercase">portfolio component</h1>
     <div class="d-flex justify-content-center align-items-center py-3">
         <div class="line bg-black"></div>
@@ -7,11 +7,68 @@
     </div>
     <div class="row g-5">
         <div class="col-md-6 col-lg-4">
-            <div class="inner rounded-3 position-relative">
+            <div class="inner rounded-3 position-relative" data-bs-target="#imageModel" (click)="imageUrl='./image/poert1.png'" data-bs-toggle="modal">
                 <img src="./image/poert1.png" class="h-100 w-100 rounded-3" alt="image 1">
                 <div class="top-0 bottom-0 start-0 end-0 rounded-3 bg-opacity d-flex justify-content-center align-items-center bg-green position-absolute">
                     <i class="fas fa-plus  text-white fw-bolder"></i>
                 </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="inner rounded-3 position-relative" data-bs-target="#imageModel" (click)="imageUrl='./image/port2.png'" data-bs-toggle="modal">
+                <img src="./image/port2.png" class="h-100 w-100 rounded-3" alt="image 1">
+                <div class="top-0 bottom-0 start-0 end-0 rounded-3 bg-opacity d-flex justify-content-center align-items-center bg-green position-absolute">
+                    <i class="fas fa-plus  text-white fw-bolder"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="inner rounded-3 position-relative" data-bs-target="#imageModel" (click)="imageUrl='./image/port3.png'" data-bs-toggle="modal">
+                <img src="./image/port3.png" class="h-100 w-100 rounded-3" alt="image 1">
+                <div class="top-0 bottom-0 start-0 end-0 rounded-3 bg-opacity d-flex justify-content-center align-items-center bg-green position-absolute">
+                    <i class="fas fa-plus  text-white fw-bolder"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="inner rounded-3 position-relative" data-bs-target="#imageModel" (click)="imageUrl='./image/poert1.png'"
+                data-bs-toggle="modal">
+                <img src="./image/poert1.png" class="h-100 w-100 rounded-3" alt="image 1">
+                <div
+                    class="top-0 bottom-0 start-0 end-0 rounded-3 bg-opacity d-flex justify-content-center align-items-center bg-green position-absolute">
+                    <i class="fas fa-plus  text-white fw-bolder"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="inner rounded-3 position-relative" data-bs-target="#imageModel" (click)="imageUrl='./image/port2.png'"
+                data-bs-toggle="modal">
+                <img src="./image/port2.png" class="h-100 w-100 rounded-3" alt="image 1">
+                <div
+                    class="top-0 bottom-0 start-0 end-0 rounded-3 bg-opacity d-flex justify-content-center align-items-center bg-green position-absolute">
+                    <i class="fas fa-plus  text-white fw-bolder"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="inner rounded-3 position-relative" data-bs-target="#imageModel" (click)="imageUrl='./image/port3.png'"
+                data-bs-toggle="modal">
+                <img src="./image/port3.png" class="h-100 w-100 rounded-3" alt="image 1">
+                <div
+                    class="top-0 bottom-0 start-0 end-0 rounded-3 bg-opacity d-flex justify-content-center align-items-center bg-green position-absolute">
+                    <i class="fas fa-plus  text-white fw-bolder"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-lg" id="imageModel" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body p-0">
+                <img [src]="imageUrl" class="h-100 w-100 " alt="image 1">
             </div>
         </div>
     </div>

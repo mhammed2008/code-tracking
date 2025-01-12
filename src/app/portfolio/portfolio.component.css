@@ -19,3 +19,6 @@
 .inner:hover .fa-plus{
     opacity: 1 !important;
 }
+.modal{
+    background-color: #0d6dfd1b !important;
+}
