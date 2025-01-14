@@ -7,5 +7,12 @@ import { Component } from '@angular/core';
   styleUrl: './contact.component.css'
 })
 export class ContactComponent {
-
+  floating(label: HTMLElement, input: HTMLInputElement) {
+    console.log(label);
+    if (input.value.length < 1) {
+      label.classList.remove('active');
+    } else {
+      label.classList.add('active');
+    }
+  }
 }

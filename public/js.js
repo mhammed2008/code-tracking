@@ -1,4 +1,3 @@
-
 let nav = document.getElementById('nav');
 window.onscroll = function () { scrollNav() };
 

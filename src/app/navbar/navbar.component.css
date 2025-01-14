@@ -5,3 +5,7 @@
     width: fit-content;
     transition: all 0.3s ease-in-out;
 }
+.active {
+    background: #1abc9c;
+    border-radius: 10px;
+}

@@ -6,11 +6,6 @@
 .bg-green {
     background: #1abc9c;
 }
-.active{
-    background: #1abc9c;
-    border-radius: 10px;
-}
-
 .line {
     width: 80px;
     height: 4px;

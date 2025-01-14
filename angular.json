@@ -29,13 +29,12 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.css",
-              "assets/fontAwesome/all.min.css",
-              "assets/fontAwesome/keyframes.css"
+              "./node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+              "src/styles.css"
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
-              "assets/js.js"
+              "public/js.js"
             ],
             "server": "src/main.server.ts",
             "outputMode": "server",
